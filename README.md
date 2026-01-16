@@ -1,58 +1,41 @@
-# 📊 AI Research Report Platform
+# AI Research Report Platform
 
-A comprehensive AI research and reporting platform with client-server architecture.
+## Overview
+A full-stack platform designed to revolutionize how AI research is generated and consumed. By combining a modern React interface with a robust backend, this system enables researchers to generate, manage, and collaborate on AI-powered technical reports.
 
----
+## Features
+-   **Automated Generation**: AI-driven creation of research drafts and summaries.
+-   **Collaboration**: Real-time editing and commenting on reports.
+-   **Export**: High-fidelity PDF export with proper citation formatting.
+-   **Dashboard**: Centralized management of all research projects.
+-   **Type Safety**: Full TypeScript implementation for robust code quality.
 
-## 🌟 Overview
+## Technology Stack
+-   **Frontend**: React, Vite, Tailwind CSS.
+-   **Backend**: Node.js, Express.
+-   **Language**: TypeScript (Shared types monorepo).
+-   **Build**: PNPM workspace.
 
-A full-stack application for generating, managing, and presenting AI-powered research reports with a modern client interface and robust server backend.
+## Usage Flow
+1.  **Draft**: User inputs research parameters and topics.
+2.  **Generate**: AI engine produces an initial report draft.
+3.  **Refine**: User edits and polishes the content in the editor.
+4.  **Publish**: Final report is exported or shared with the team.
 
-## ✨ Features
-
-- **Research Generation** - AI-powered reports
-- **Client Dashboard** - Modern React UI
-- **Server API** - RESTful backend
-- **Shared Types** - TypeScript throughout
-
-## 📁 Project Structure
-
-```
-ai-research-report/
-├── client/          # React frontend
-├── server/          # Node.js backend
-├── shared/          # Shared types
-├── patches/         # Dependency patches
-└── vite.config.ts   # Build config
-```
-
-## 🚀 Quick Start
-
+## Quick Start
 ```bash
+# Clone the repository
+git clone https://github.com/Nytrynox/AI-Research-Report.git
+
 # Install dependencies
 pnpm install
 
-# Run development
+# Start development environment
 pnpm dev
 ```
 
-## 🔬 Technology Stack
-
-| Component | Technology |
-|-----------|------------|
-| Frontend | React, Vite |
-| Backend | Node.js, Express |
-| Language | TypeScript |
-| Package Manager | pnpm |
-
-## 📝 License
-
+## License
 MIT License
 
-## 👤 Author
-
+## Author
 **Karthik Idikuda**
-
----
-
-*Research at scale*
